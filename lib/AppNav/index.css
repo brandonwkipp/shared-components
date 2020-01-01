@@ -1,0 +1,48 @@
+.navbar {
+  height: 47px;
+  background: #fff;
+}
+
+.navbar .navbar-brand {
+  width: 200px;
+}
+
+.navbar .navbar-brand img {
+  position: absolute;
+  width: 200px;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+.navbar .navbar-brand #brandShape {
+  border-top: 55px solid #fff;
+  border-left: 0 solid transparent;
+  border-right: 46px solid transparent;
+  width: 241px;
+  position: absolute;
+  z-index: 2;
+  top: 44px;
+  left: 0;
+}
+
+.navbar .nav-link {
+  color: #18063E;
+  font-weight: 400;
+}
+
+.navbar .navbar-collapse {
+  background: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    height: calc(53px + 1rem);
+    height: -webkit-calc(53px + 1rem);
+    height: -moz-calc(53px + 1rem);
+  }
+
+  .navbar .navbar-brand img {
+    width: 140px;
+  }
+}
