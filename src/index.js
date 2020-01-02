@@ -1,2 +1,2 @@
-export { default as AppNav } from './AppNav';
-export { default as Footer } from './Footer';
+export { default as WebAppNav } from './web/AppNav';
+export { default as WebFooter } from './web/Footer';
