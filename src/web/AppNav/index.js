@@ -7,7 +7,7 @@ import NavPublic from './NavPublic';
 // import HexagonNav from './HexagonNav';
 import Sidebar from './NavSidebar';
 
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
 // If we need to absolutely mimick current navbar behavior, this looks promising...

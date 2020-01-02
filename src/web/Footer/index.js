@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
 const Footer = () => (
@@ -14,7 +14,7 @@ const Footer = () => (
             <ul className="list-unstyled">
               <li>
                 <a href="https://www.smm.org/about">
-                  About Ussssss
+                  About Us
                 </a>
               </li>
               <li>
